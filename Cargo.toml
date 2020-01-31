@@ -1,0 +1,9 @@
+[package]
+name = "usize-issue"
+version = "0.1.0"
+authors = ["Anton Bukov <k06aaa@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ethash = { git = "https://github.com/nearprotocol/rust-ethash", branch = "feature/hashimoto-with-hashers" }
+#ethash = { path = "./rust-ethash" }

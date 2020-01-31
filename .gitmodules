@@ -1,0 +1,4 @@
+[submodule "rust-ethash"]
+	path = rust-ethash
+	url = https://github.com/nearprotocol/rust-ethash
+	commit = feature/hashimoto-with-hashers
